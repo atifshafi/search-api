@@ -16,3 +16,7 @@ unit-test:
 		mkdir test-output; \
 	fi
 	npm test
+
+.PHONY: lint
+lint:
+	npm run lint
